@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on Daniel Rivas</title>
+    <link>https://danielrs.me/tags/programming/</link>
+    <description>Recent content in Programming on Daniel Rivas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Daniel Rivas</copyright>
+    <lastBuildDate>Sun, 27 May 2018 21:33:03 -0500</lastBuildDate>
+    
+	<atom:link href="https://danielrs.me/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Best Programming Language to Learn</title>
+      <link>https://danielrs.me/blog/the-best-programming-language-to-learn/</link>
+      <pubDate>Sun, 27 May 2018 21:33:03 -0500</pubDate>
+      
+      <guid>https://danielrs.me/blog/the-best-programming-language-to-learn/</guid>
+      <description>&lt;p&gt;What is the best programming language someone should learn in order to be a &lt;del&gt;good&lt;/del&gt; happy programmer?&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

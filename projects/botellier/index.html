@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Botellier - Daniel Rivas</title>
+    <meta name="description" content="A distributed key-value data store.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="/css/vendor.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body  data-js-view-name="ProjectsView">
+    
+        <nav id="nav" role="navigation">
+    
+    
+
+    <button id="menu-toggle" type="button">&#9776;</button>
+    <a class="nav__brand" href="/" title="home">Daniel Rivas</a>
+    <ul class="nav__list">
+        </li>
+    
+        <li>
+            <a class="nav__list__item nav__list__active"
+           href="/projects/"
+           title="">
+            Projects
+        </a>
+        </li>
+    
+        <li>
+            <a class="nav__list__item"
+           href="/blog/"
+           title="">
+            Blog
+        </a>
+        </li>
+    
+    </ul>
+</nav>
+
+    
+
+    
+    <main class="container">
+        <article class="project-post">
+            <h1>Botellier</h1>
+            <aside>
+                <header>
+                    <time class="date" datetime="2018-05-11">May 11, 2018</time>
+                    <ul class="tag-list">
+                        
+                            
+                                <li class="tag">java</li>
+                            
+                                <li class="tag">kotlin</li>
+                            
+                                <li class="tag">db</li>
+                            
+                                <li class="tag">in-memory-db</li>
+                            
+                        
+                    </ul>
+
+                    
+
+    
+    
+        
+        <a
+            class="github-button"
+            href="https://github.com/danielrs/dobro"
+            data-icon="octicon-star"
+            data-show-count="true"
+            aria-label="Star danielrs/dobro on GitHub">Star</a>
+    
+
+
+
+
+                    <span class="separator">&#8729;</span>
+                </header>
+            </aside>
+            <main>
+                
+
+<p>Botellier is a distributed key-value, in-memory data store written completely in <a href="https://kotlinlang.org/">Kotlin</a>. It aims to imitate the <a href="https://redis.io/">Redis</a> API and work as a drop-in replacement for simple cases. This project started out as a learning-only project for practicing distributed systems. I decided to design Botellier after Redis due to its simple and predictable API.</p>
+
+<p>Botellier covers most simple commands that Redis does, and provides a persistent data solution based on segments. The following demo shows some simple usage:</p>
+
+<script src="https://asciinema.org/a/b5yhrwnsu8v4rkna08yoa3wre.js" id="asciicast-b5yhrwnsu8v4rkna08yoa3wre" async></script>
+
+<h2 id="difficulties">Difficulties</h2>
+
+<p>Working with distributed systems is always hard. So instead of implementing my own consensus algorithm from scratch, I decided to use <a href="https://zookeeper.apache.org/">ZooKeeper</a> for my leader election process; in which a leader is selected, along with a synchronized replica and follower replicas.</p>
+
+            </main>
+        </article>
+    </main>
+
+
+    
+        <div id="footer">
+    Copyright &copy; 2018 Daniel Rivas
+</div>
+
+    
+
+    
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="/js/vendor.js"></script>
+<script src="/js/app.js"></script>
+
+    
+</body>
+</html>

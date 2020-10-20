@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Api on Daniel Rivas</title>
+    <link>https://danielrs.me/tags/api/</link>
+    <description>Recent content in Api on Daniel Rivas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Daniel Rivas</copyright>
+    <lastBuildDate>Sun, 13 May 2018 12:38:02 -0500</lastBuildDate>
+    
+	<atom:link href="https://danielrs.me/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Dobro</title>
+      <link>https://danielrs.me/projects/dobro/</link>
+      <pubDate>Sun, 13 May 2018 12:38:02 -0500</pubDate>
+      
+      <guid>https://danielrs.me/projects/dobro/</guid>
+      <description>Dobro is a terminal-client for streaming music from Pandora. The client lets you log-in, create, update, edit and play Pandora stations from the terminal. Here&amp;rsquo;s a quick demo of the app in action:
+ Development Rust is a good systems programming language, however, it lacks the diversity of libraries that some more established languages like C++ have. For instance, most of the app functionalities where developed using plain Rust, with the exception of audio playback and audio decoding; which where handled by the native libraries ffmpeg and ao respectively.</description>
+    </item>
+    
+    <item>
+      <title>gom</title>
+      <link>https://danielrs.me/projects/gom/</link>
+      <pubDate>Fri, 11 May 2018 21:50:30 -0500</pubDate>
+      
+      <guid>https://danielrs.me/projects/gom/</guid>
+      <description>When working in a new project, back-end and front-end developers often go hand in hand; even more if the front-end of the application makes heavy use of the API that back-end developers take care of. For simple applications, this is often not a problem, as the front-end developers just wait for the API updates and modify their side of the application accordingly.
+ sequence 1   For bigger applications, the usual worflow is to make sure to design a good API specification that both the back-end and front-end developers need to follow.</description>
+    </item>
+    
+  </channel>
+</rss>

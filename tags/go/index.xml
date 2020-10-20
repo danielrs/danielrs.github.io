@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Go on Daniel Rivas</title>
+    <link>https://danielrs.me/tags/go/</link>
+    <description>Recent content in Go on Daniel Rivas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Daniel Rivas</copyright>
+    <lastBuildDate>Fri, 11 May 2018 21:50:30 -0500</lastBuildDate>
+    
+	<atom:link href="https://danielrs.me/tags/go/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>gom</title>
+      <link>https://danielrs.me/projects/gom/</link>
+      <pubDate>Fri, 11 May 2018 21:50:30 -0500</pubDate>
+      
+      <guid>https://danielrs.me/projects/gom/</guid>
+      <description>When working in a new project, back-end and front-end developers often go hand in hand; even more if the front-end of the application makes heavy use of the API that back-end developers take care of. For simple applications, this is often not a problem, as the front-end developers just wait for the API updates and modify their side of the application accordingly.
+ sequence 1   For bigger applications, the usual worflow is to make sure to design a good API specification that both the back-end and front-end developers need to follow.</description>
+    </item>
+    
+  </channel>
+</rss>

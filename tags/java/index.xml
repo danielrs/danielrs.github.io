@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Daniel Rivas</title>
+    <link>https://danielrs.me/tags/java/</link>
+    <description>Recent content in Java on Daniel Rivas</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Daniel Rivas</copyright>
+    <lastBuildDate>Fri, 11 May 2018 21:51:40 -0500</lastBuildDate>
+    
+	<atom:link href="https://danielrs.me/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Botellier</title>
+      <link>https://danielrs.me/projects/botellier/</link>
+      <pubDate>Fri, 11 May 2018 21:51:40 -0500</pubDate>
+      
+      <guid>https://danielrs.me/projects/botellier/</guid>
+      <description>Botellier is a distributed key-value, in-memory data store written completely in Kotlin. It aims to imitate the Redis API and work as a drop-in replacement for simple cases. This project started out as a learning-only project for practicing distributed systems. I decided to design Botellier after Redis due to its simple and predictable API.
+Botellier covers most simple commands that Redis does, and provides a persistent data solution based on segments.</description>
+    </item>
+    
+  </channel>
+</rss>

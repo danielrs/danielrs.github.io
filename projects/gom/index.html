@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gom - Daniel Rivas</title>
+    <meta name="description" content="API mocking and data server.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="/css/vendor.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+</head>
+
+
+
+<body  data-js-view-name="ProjectsView">
+    
+        <nav id="nav" role="navigation">
+    
+    
+
+    <button id="menu-toggle" type="button">&#9776;</button>
+    <a class="nav__brand" href="/" title="home">Daniel Rivas</a>
+    <ul class="nav__list">
+        </li>
+    
+        <li>
+            <a class="nav__list__item nav__list__active"
+           href="/projects/"
+           title="">
+            Projects
+        </a>
+        </li>
+    
+        <li>
+            <a class="nav__list__item"
+           href="/blog/"
+           title="">
+            Blog
+        </a>
+        </li>
+    
+    </ul>
+</nav>
+
+    
+
+    
+    <main class="container">
+        <article class="project-post">
+            <h1>gom</h1>
+            <aside>
+                <header>
+                    <time class="date" datetime="2018-05-11">May 11, 2018</time>
+                    <ul class="tag-list">
+                        
+                            
+                                <li class="tag">go</li>
+                            
+                                <li class="tag">api</li>
+                            
+                                <li class="tag">generator</li>
+                            
+                        
+                    </ul>
+
+                    
+
+    
+    
+        
+        <a
+            class="github-button"
+            href="https://github.com/danielrs/gom"
+            data-icon="octicon-star"
+            data-show-count="true"
+            aria-label="Star danielrs/gom on GitHub">Star</a>
+    
+
+
+
+
+                    <span class="separator">&#8729;</span>
+                </header>
+            </aside>
+            <main>
+                <p>When working in a new project, back-end and front-end developers often go hand in hand; even more if the front-end of the application makes heavy use of the API that back-end developers take care of. For simple applications, this is often not a problem, as the front-end developers just wait for the API updates and modify their side of the application accordingly.</p>
+
+
+
+<figure >
+    
+        <img src="sequence1.svg"  class="img--50"/>
+    
+    
+    <figcaption>
+        <h4>sequence 1</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<p>For bigger applications, the usual worflow is to make sure to design a good API specification that both the back-end and front-end developers need to follow. However, the real-time interaction with the API is affected, as any changes may take longer to be committed.</p>
+
+<p><strong>Go</strong> <strong>M</strong>ocking is a tool for API mocking and dummy data server that uses RAML (Rest API Modelling Language) for setup. The idea is to <strong>de-couple</strong> back-end and front-end development by allowing back-end developers to define and API that front-end developers can use while the real, full-featured API is being created. The following diagram shows the process when <em>gom</em> is involved:</p>
+
+
+
+<figure >
+    
+        <img src="sequence2.svg"  class="img--75"/>
+    
+    
+    <figcaption>
+        <h4>sequence 2</h4>
+        
+    </figcaption>
+    
+</figure>
+
+
+
+<p>The current scope of <em>gom</em> is to just mock an API an serve dummy data, however, the current design creates an <em>Abstract Syntax Tree</em> (AST) of the API specification; which could allow for code generation in the future.</p>
+
+            </main>
+        </article>
+    </main>
+
+
+    
+        <div id="footer">
+    Copyright &copy; 2018 Daniel Rivas
+</div>
+
+    
+
+    
+        <script async defer src="https://buttons.github.io/buttons.js"></script>
+<script src="/js/vendor.js"></script>
+<script src="/js/app.js"></script>
+
+    
+</body>
+</html>
