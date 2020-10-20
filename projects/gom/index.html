@@ -27,7 +27,7 @@
         <li>
             <a class="nav__list__item nav__list__active"
            href="/projects/"
-           title="">
+           title="Projects">
             Projects
         </a>
         </li>
@@ -35,7 +35,7 @@
         <li>
             <a class="nav__list__item"
            href="/blog/"
-           title="">
+           title="Blog">
             Blog
         </a>
         </li>
@@ -87,7 +87,6 @@
                 <p>When working in a new project, back-end and front-end developers often go hand in hand; even more if the front-end of the application makes heavy use of the API that back-end developers take care of. For simple applications, this is often not a problem, as the front-end developers just wait for the API updates and modify their side of the application accordingly.</p>
 
 
-
 <figure >
     
         <img src="sequence1.svg"  class="img--50"/>
@@ -101,11 +100,8 @@
 </figure>
 
 
-
 <p>For bigger applications, the usual worflow is to make sure to design a good API specification that both the back-end and front-end developers need to follow. However, the real-time interaction with the API is affected, as any changes may take longer to be committed.</p>
-
 <p><strong>Go</strong> <strong>M</strong>ocking is a tool for API mocking and dummy data server that uses RAML (Rest API Modelling Language) for setup. The idea is to <strong>de-couple</strong> back-end and front-end development by allowing back-end developers to define and API that front-end developers can use while the real, full-featured API is being created. The following diagram shows the process when <em>gom</em> is involved:</p>
-
 
 
 <figure >
@@ -119,7 +115,6 @@
     </figcaption>
     
 </figure>
-
 
 
 <p>The current scope of <em>gom</em> is to just mock an API an serve dummy data, however, the current design creates an <em>Abstract Syntax Tree</em> (AST) of the API specification; which could allow for code generation in the future.</p>

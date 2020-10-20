@@ -27,7 +27,7 @@
         <li>
             <a class="nav__list__item nav__list__active"
            href="/projects/"
-           title="">
+           title="Projects">
             Projects
         </a>
         </li>
@@ -35,7 +35,7 @@
         <li>
             <a class="nav__list__item"
            href="/blog/"
-           title="">
+           title="Blog">
             Blog
         </a>
         </li>
@@ -86,16 +86,10 @@
                 </header>
             </aside>
             <main>
-                
-
-<p>Botellier is a distributed key-value, in-memory data store written completely in <a href="https://kotlinlang.org/">Kotlin</a>. It aims to imitate the <a href="https://redis.io/">Redis</a> API and work as a drop-in replacement for simple cases. This project started out as a learning-only project for practicing distributed systems. I decided to design Botellier after Redis due to its simple and predictable API.</p>
-
+                <p>Botellier is a distributed key-value, in-memory data store written completely in <a href="https://kotlinlang.org/">Kotlin</a>. It aims to imitate the <a href="https://redis.io/">Redis</a> API and work as a drop-in replacement for simple cases. This project started out as a learning-only project for practicing distributed systems. I decided to design Botellier after Redis due to its simple and predictable API.</p>
 <p>Botellier covers most simple commands that Redis does, and provides a persistent data solution based on segments. The following demo shows some simple usage:</p>
-
-<script src="https://asciinema.org/a/b5yhrwnsu8v4rkna08yoa3wre.js" id="asciicast-b5yhrwnsu8v4rkna08yoa3wre" async></script>
-
+<!-- raw HTML omitted -->
 <h2 id="difficulties">Difficulties</h2>
-
 <p>Working with distributed systems is always hard. So instead of implementing my own consensus algorithm from scratch, I decided to use <a href="https://zookeeper.apache.org/">ZooKeeper</a> for my leader election process; in which a leader is selected, along with a synchronized replica and follower replicas.</p>
 
             </main>

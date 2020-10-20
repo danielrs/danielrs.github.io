@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
@@ -13,13 +13,13 @@
   </url>
   
   <url>
-    <loc>https://danielrs.me/projects/botellier/</loc>
-    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
+    <loc>https://danielrs.me/blog/</loc>
+    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://danielrs.me/blog/</loc>
-    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
+    <loc>https://danielrs.me/projects/botellier/</loc>
+    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
   </url>
   
   <url>
@@ -28,8 +28,68 @@
   </url>
   
   <url>
+    <loc>https://danielrs.me/tags/philosophical/</loc>
+    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/programming/</loc>
+    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/</loc>
+    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://danielrs.me/blog/the-best-programming-language-to-learn/</loc>
     <lastmod>2018-05-27T21:33:03-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/api/</loc>
+    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/cli/</loc>
+    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/rust/</loc>
+    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/db/</loc>
+    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/in-memory-db/</loc>
+    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/java/</loc>
+    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/kotlin/</loc>
+    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/generator/</loc>
+    <lastmod>2018-05-11T21:50:30-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://danielrs.me/tags/go/</loc>
+    <lastmod>2018-05-11T21:50:30-05:00</lastmod>
   </url>
   
   <url>
@@ -38,80 +98,7 @@
   </url>
   
   <url>
-    <loc>https://danielrs.me/tags/api/</loc>
-    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://danielrs.me/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/cli/</loc>
-    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/db/</loc>
-    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/generator/</loc>
-    <lastmod>2018-05-11T21:50:30-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/go/</loc>
-    <lastmod>2018-05-11T21:50:30-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/in-memory-db/</loc>
-    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/java/</loc>
-    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/kotlin/</loc>
-    <lastmod>2018-05-11T21:51:40-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/philosophical/</loc>
-    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/programming/</loc>
-    <lastmod>2018-05-27T21:33:03-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/rust/</loc>
-    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://danielrs.me/tags/</loc>
-    <lastmod>2018-05-13T12:38:02-05:00</lastmod>
-    <priority>0</priority>
   </url>
   
 </urlset>

@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Philosophical on Daniel Rivas</title>
+    <title>philosophical on Daniel Rivas</title>
     <link>https://danielrs.me/tags/philosophical/</link>
-    <description>Recent content in Philosophical on Daniel Rivas</description>
+    <description>Recent content in philosophical on Daniel Rivas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Daniel Rivas</copyright>
-    <lastBuildDate>Sun, 27 May 2018 21:33:03 -0500</lastBuildDate>
-    
-	<atom:link href="https://danielrs.me/tags/philosophical/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sun, 27 May 2018 21:33:03 -0500</lastBuildDate><atom:link href="https://danielrs.me/tags/philosophical/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Best Programming Language to Learn</title>
       <link>https://danielrs.me/blog/the-best-programming-language-to-learn/</link>

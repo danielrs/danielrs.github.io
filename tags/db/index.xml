@@ -1,17 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Db on Daniel Rivas</title>
+    <title>db on Daniel Rivas</title>
     <link>https://danielrs.me/tags/db/</link>
-    <description>Recent content in Db on Daniel Rivas</description>
+    <description>Recent content in db on Daniel Rivas</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Daniel Rivas</copyright>
-    <lastBuildDate>Fri, 11 May 2018 21:51:40 -0500</lastBuildDate>
-    
-	<atom:link href="https://danielrs.me/tags/db/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 11 May 2018 21:51:40 -0500</lastBuildDate><atom:link href="https://danielrs.me/tags/db/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Botellier</title>
       <link>https://danielrs.me/projects/botellier/</link>
