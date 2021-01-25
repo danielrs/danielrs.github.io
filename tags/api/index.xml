@@ -18,15 +18,5 @@
 Development Rust is a good systems programming language, however, it lacks the diversity of libraries that some more established languages like C++ have. For instance, most of the app functionalities where developed using plain Rust, with the exception of audio playback and audio decoding; which where handled by the native libraries ffmpeg and ao respectively.</description>
     </item>
     
-    <item>
-      <title>gom</title>
-      <link>https://danielrs.me/projects/gom/</link>
-      <pubDate>Fri, 11 May 2018 21:50:30 -0500</pubDate>
-      
-      <guid>https://danielrs.me/projects/gom/</guid>
-      <description>When working in a new project, back-end and front-end developers often go hand in hand; even more if the front-end of the application makes heavy use of the API that back-end developers take care of. For simple applications, this is often not a problem, as the front-end developers just wait for the API updates and modify their side of the application accordingly.
- sequence 1   For bigger applications, the usual worflow is to make sure to design a good API specification that both the back-end and front-end developers need to follow.</description>
-    </item>
-    
   </channel>
 </rss>

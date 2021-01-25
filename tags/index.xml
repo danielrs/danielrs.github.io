@@ -89,23 +89,5 @@
       <description></description>
     </item>
     
-    <item>
-      <title>generator</title>
-      <link>https://danielrs.me/tags/generator/</link>
-      <pubDate>Fri, 11 May 2018 21:50:30 -0500</pubDate>
-      
-      <guid>https://danielrs.me/tags/generator/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>go</title>
-      <link>https://danielrs.me/tags/go/</link>
-      <pubDate>Fri, 11 May 2018 21:50:30 -0500</pubDate>
-      
-      <guid>https://danielrs.me/tags/go/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
